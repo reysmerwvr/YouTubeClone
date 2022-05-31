@@ -1,0 +1,231 @@
+{
+    "kind": "youtube#playlistListResponse",
+    "etag": "kpbTyXjN477jbf9wkbd-u7g3MB4",
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+        "totalResults": 7,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#playlist",
+            "etag": "5BrNCvVbwrBLNF6eAxNaA0rbm_k",
+            "id": "PLT_OObKZ3CpvP4iIGm4U1oWXL2-ksx2E4",
+            "snippet": {
+                "publishedAt": "2022-05-23T13:33:20Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Curso de Unit Testing con Swift - Xcode",
+                "description": "En esta serie de videos te enseño cómo crear las pruebas unitarias o unit tests en tu aplicación. La idea es que a partir de ahora tengas conocimientos suficientes como para crear tus propios unit tests en tu aplicación. Debes ver todos los videos para entender por completo cómo funcionan los tests y para qué se usan en el desarrollo de una aplicación.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "Curso de Unit Testing con Swift - Xcode",
+                    "description": "En esta serie de videos te enseño cómo crear las pruebas unitarias o unit tests en tu aplicación. La idea es que a partir de ahora tengas conocimientos suficientes como para crear tus propios unit tests en tu aplicación. Debes ver todos los videos para entender por completo cómo funcionan los tests y para qué se usan en el desarrollo de una aplicación."
+                }
+            },
+            "contentDetails": {
+                "itemCount": 1
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "TdvAGqVC3OMxNwZ0Rj6XNiYyQPc",
+            "id": "PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH",
+            "snippet": {
+                "publishedAt": "2022-02-26T19:04:22Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Curso de Swift Español - Clonando YouTube",
+                "description": "Curso de Swift en Español de cómo crear una aplicación desde cero con Xcode y Swift - iOS 15. Acompáñame en el recorrido completo de la creación de esta aplicación. \n\nEn el desarrollo de esta aplicación vamos a estar clonando YouTube.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "Curso de Swift Español - Clonando YouTube",
+                    "description": "Curso de Swift en Español de cómo crear una aplicación desde cero con Xcode y Swift - iOS 15. Acompáñame en el recorrido completo de la creación de esta aplicación. \n\nEn el desarrollo de esta aplicación vamos a estar clonando YouTube."
+                }
+            },
+            "contentDetails": {
+                "itemCount": 35
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "LbzOlnRZKG8W5cEnqIUEFB4HV2Y",
+            "id": "PLT_OObKZ3CpuNE0t8rCWkArfpTgkJP9lm",
+            "snippet": {
+                "publishedAt": "2021-10-23T04:53:14Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Manejo de Memoria",
+                "description": "En esta serie de vides te explico todo sobre el manejo de memoria, cómo funciona, cómo evitar los memory leaks y también como evitarlos. Te recomiendo ver los 3 videos en el orden correcto para entender bien como funciona.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/BhM_dovPUmM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "Manejo de Memoria",
+                    "description": "En esta serie de vides te explico todo sobre el manejo de memoria, cómo funciona, cómo evitar los memory leaks y también como evitarlos. Te recomiendo ver los 3 videos en el orden correcto para entender bien como funciona."
+                }
+            },
+            "contentDetails": {
+                "itemCount": 3
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "_PcCAEikzUmcQiTnlZsB9YKOFmk",
+            "id": "PLT_OObKZ3CpsvBaVOFyZR8goHaQyQFNFg",
+            "snippet": {
+                "publishedAt": "2021-09-30T00:14:30Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "AutoLayout",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_vJl_jRBFww/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_vJl_jRBFww/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_vJl_jRBFww/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/_vJl_jRBFww/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/_vJl_jRBFww/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "AutoLayout",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 2
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "7Sm86v0aMcrWEXLnM_F0EZYU1sw",
+            "id": "PLT_OObKZ3CptJSLph-N2i-mFRMh_GsoTW",
+            "snippet": {
+                "publishedAt": "2021-09-25T20:55:58Z",
+                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
+                "title": "Protocols, Delegates y Dependency Injection",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zalh4iGoplU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zalh4iGoplU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zalh4iGoplU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/zalh4iGoplU/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/zalh4iGoplU/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Victor Roldan Dev",
+                "localized": {
+                    "title": "Protocols, Delegates y Dependency Injection",
+                    "description": ""
+                }
+            },
+            "contentDetails": {
+                "itemCount": 3
+            }
+        }
+    ]
+}
