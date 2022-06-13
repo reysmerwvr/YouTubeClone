@@ -18,7 +18,7 @@ struct ChannelModel: Codable {
         let kind, etag, id: String
         let snippet: Snippet
         let statistics: Statistics
-        let brandingSettings: BrandingSettings
+        let brandingSettings: BrandingSettings?
         
         // MARK: - BrandingSettings
         struct BrandingSettings: Codable {
