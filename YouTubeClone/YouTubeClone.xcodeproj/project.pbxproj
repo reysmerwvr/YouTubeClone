@@ -14,6 +14,9 @@
 		93635859283AD523004A02CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93635858283AD523004A02CE /* Assets.xcassets */; };
 		9363585C283AD523004A02CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9363585A283AD523004A02CE /* LaunchScreen.storyboard */; };
 		9363E0EA2857F149006F3953 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363E0E92857F149006F3953 /* SectionTitleView.swift */; };
+		9363E0EE285C8A6A006F3953 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363E0EC285C8A6A006F3953 /* BottomSheetViewController.swift */; };
+		9363E0EF285C8A6A006F3953 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9363E0ED285C8A6A006F3953 /* BottomSheetViewController.xib */; };
+		9363E0F2285CBC7B006F3953 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363E0F1285CBC7B006F3953 /* UIView+Extension.swift */; };
 		93EE18A1283F999600841F80 /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE18A0283F999600841F80 /* PlayListModel.swift */; };
 		93EE18A3283F9FC400841F80 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE18A2283F9FC400841F80 /* VideoModel.swift */; };
 		93EE18A62840D24500841F80 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE18A52840D24500841F80 /* RootPageViewController.swift */; };
@@ -63,6 +66,9 @@
 		9363585B283AD523004A02CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9363585D283AD523004A02CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9363E0E92857F149006F3953 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		9363E0EC285C8A6A006F3953 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		9363E0ED285C8A6A006F3953 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
+		9363E0F1285CBC7B006F3953 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		93EE18A0283F999600841F80 /* PlayListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListModel.swift; sourceTree = "<group>"; };
 		93EE18A2283F9FC400841F80 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		93EE18A52840D24500841F80 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +171,23 @@
 			path = YouTubeClone;
 			sourceTree = "<group>";
 		};
+		9363E0EB285C8A22006F3953 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9363E0EC285C8A6A006F3953 /* BottomSheetViewController.swift */,
+				9363E0ED285C8A6A006F3953 /* BottomSheetViewController.xib */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		9363E0F0285CBC27006F3953 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9363E0F1285CBC7B006F3953 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		93EE189F283F995D00841F80 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +267,7 @@
 		93EE18CB2844FEB600841F80 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9363E0F0285CBC27006F3953 /* Extensions */,
 				93EE18DC284672A200841F80 /* Mocks */,
 				93EE18CC2844FEC900841F80 /* Constants.swift */,
 				93EE18DD284672C200841F80 /* Helpers.swift */,
@@ -263,6 +287,7 @@
 		93EE18CF284554DC00841F80 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9363E0EB285C8A22006F3953 /* BottomSheet */,
 				93EE18EE2847B0DB00841F80 /* CustomCells */,
 				93EE18AA2840D4FA00841F80 /* HomeViewController.swift */,
 				93EE18AB2840D4FA00841F80 /* HomeViewController.xib */,
@@ -392,6 +417,7 @@
 				93EE18E32846749400841F80 /* PlayList.json in Resources */,
 				93EE18F6284807BD00841F80 /* VideoCell.xib in Resources */,
 				93EE18FA284807D500841F80 /* PlayListCell.xib in Resources */,
+				9363E0EF285C8A6A006F3953 /* BottomSheetViewController.xib in Resources */,
 				93EE18AD2840D4FA00841F80 /* HomeViewController.xib in Resources */,
 				93EE18BE2840D61800841F80 /* ChannelsViewController.xib in Resources */,
 				93EE18EA2846756100841F80 /* PlayListItems.json in Resources */,
@@ -449,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93EE18B82840D5B900841F80 /* PlayListViewController.swift in Sources */,
+				9363E0F2285CBC7B006F3953 /* UIView+Extension.swift in Sources */,
 				93EE18C82844FBDC00841F80 /* NetworkError.swift in Sources */,
 				93EE18B32840D55200841F80 /* VideosViewController.swift in Sources */,
 				93EE18A82840D28100841F80 /* MainViewController.swift in Sources */,
@@ -463,6 +490,7 @@
 				93EE18ED28467BE200841F80 /* MockManager.swift in Sources */,
 				93EE18C22840D65500841F80 /* AboutViewController.swift in Sources */,
 				93EE18F12848075F00841F80 /* ChannelCell.swift in Sources */,
+				9363E0EE285C8A6A006F3953 /* BottomSheetViewController.swift in Sources */,
 				93EE18AC2840D4FA00841F80 /* HomeViewController.swift in Sources */,
 				93635850283AD51F004A02CE /* AppDelegate.swift in Sources */,
 				93EE18A62840D24500841F80 /* RootPageViewController.swift in Sources */,

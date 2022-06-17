@@ -12,11 +12,11 @@ class HomeViewController: UIViewController {
     lazy var presenter = HomePresenter(delegate: self)
     private var objectList: [[Any]] = []
     private var sectionTitleList: [String] = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configTableView()
-
+        
         Task {
             await presenter.getHomeObjects()
         }
@@ -75,22 +75,28 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             guard let videosCell = tableView.dequeueReusableCell(withIdentifier: "\(VideoCell.self)", for: indexPath) as? VideoCell else {
                 return UITableViewCell()
             }
+            videosCell.didTapDotsButton = {[weak self] in
+                self?.configButtonSheet()
+            }
             videosCell.configCell(model: videos[indexPath.row])
             return videosCell
         } else if let playlist = item as? [PlayListModel.Item] {
             guard let playlistCell = tableView.dequeueReusableCell(withIdentifier: "\(PlayListCell.self)", for: indexPath) as? PlayListCell else {
                 return UITableViewCell()
             }
+            playlistCell.didTapDotsButton = {[weak self] in
+                self?.configButtonSheet()
+            }
             playlistCell.configCell(model: playlist[indexPath.row])
             return playlistCell
         }
-
+        
         return UITableViewCell()
     }
     
-//    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return sectionTitleList[section]
-//    }
+    //    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    //        return sectionTitleList[section]
+    //    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == 1 || indexPath.section == 2 {
@@ -106,5 +112,11 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         sectionView.title.text = sectionTitleList[section]
         sectionView.configView()
         return sectionView
+    }
+    
+    func configButtonSheet() {
+        let vc = BottomSheetViewController()
+        vc.modalPresentationStyle = .overCurrentContext
+        self.present(vc, animated: false)
     }
 }

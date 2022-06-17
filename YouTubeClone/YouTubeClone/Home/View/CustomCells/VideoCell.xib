@@ -59,15 +59,27 @@
                             <constraint firstAttribute="height" constant="13" id="ORo-I0-ZIF"/>
                         </constraints>
                     </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpd-xh-mEg">
+                        <rect key="frame" x="329" y="0.0" width="67" height="13"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="onDotsButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ToV-Es-142"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="kDG-u2-ct3" secondAttribute="trailing" constant="6" id="0CK-OE-9d2"/>
                     <constraint firstItem="kDG-u2-ct3" firstAttribute="top" secondItem="1z1-zN-ngu" secondAttribute="top" id="GN3-a3-NYh"/>
+                    <constraint firstItem="Wpd-xh-mEg" firstAttribute="centerX" secondItem="kDG-u2-ct3" secondAttribute="centerX" id="IbM-5Q-jas"/>
                     <constraint firstAttribute="bottom" secondItem="bwB-XU-AmC" secondAttribute="bottom" constant="14" id="L94-sH-b3e"/>
                     <constraint firstAttribute="trailing" secondItem="bwB-XU-AmC" secondAttribute="trailing" constant="14" id="OBJ-Ny-mTp"/>
+                    <constraint firstItem="Wpd-xh-mEg" firstAttribute="height" secondItem="kDG-u2-ct3" secondAttribute="height" id="RFc-iw-GHB"/>
                     <constraint firstItem="bwB-XU-AmC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TCy-aa-XaF"/>
                     <constraint firstItem="bwB-XU-AmC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="eRc-sM-tAG"/>
+                    <constraint firstItem="Wpd-xh-mEg" firstAttribute="width" secondItem="kDG-u2-ct3" secondAttribute="width" multiplier="5.15385" id="jPp-9l-uZV"/>
+                    <constraint firstItem="Wpd-xh-mEg" firstAttribute="centerY" secondItem="kDG-u2-ct3" secondAttribute="centerY" id="mgl-nq-O5g"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

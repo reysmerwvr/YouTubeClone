@@ -19,6 +19,8 @@ class VideoCell: UITableViewCell {
 
     @IBOutlet weak var dotsImage: UIImageView!
     
+    var didTapDotsButton: (() -> Void)?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         configView()
@@ -28,6 +30,12 @@ class VideoCell: UITableViewCell {
         selectionStyle = .none
         dotsImage.image = UIImage(named: "dots")?.withRenderingMode(.alwaysTemplate)
         dotsImage.tintColor = UIColor(named: "whiteColor")
+    }
+    
+    @IBAction func onDotsButtonTapped(_ sender: Any) {
+        if let tap = didTapDotsButton {
+            tap()
+        }
     }
     
     func configCell(model: Any) {

@@ -18,6 +18,8 @@ class PlayListCell: UITableViewCell {
     @IBOutlet weak var videoCountOverlay: UILabel!
 
     @IBOutlet weak var dotsImage: UIImageView!
+    
+    var didTapDotsButton: (() -> Void)?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,6 +30,12 @@ class PlayListCell: UITableViewCell {
         selectionStyle = .none
         dotsImage.image = UIImage(named: "dots")?.withRenderingMode(.alwaysTemplate)
         dotsImage.tintColor = UIColor(named: "whiteColor")
+    }
+    
+    @IBAction func onDotsButtonTapped(_ sender: Any) {
+        if let tap = didTapDotsButton {
+            tap()
+        }
     }
     
     func configCell(model: PlayListModel.Item) {

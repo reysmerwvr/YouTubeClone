@@ -80,11 +80,23 @@
                             <constraint firstAttribute="height" constant="13" id="dP8-3u-Z3M"/>
                         </constraints>
                     </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epP-05-Myb">
+                        <rect key="frame" x="329" y="206.5" width="67" height="13"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="onDotsButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fWu-5h-bEN"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="epP-05-Myb" firstAttribute="centerY" secondItem="wvf-MS-Sjn" secondAttribute="centerY" id="0rY-NL-rwL"/>
                     <constraint firstItem="52a-5f-fmz" firstAttribute="trailing" secondItem="cbS-uZ-8Gg" secondAttribute="trailing" id="1fW-yB-QJx"/>
+                    <constraint firstItem="epP-05-Myb" firstAttribute="width" secondItem="wvf-MS-Sjn" secondAttribute="width" multiplier="5.15385" id="9Qf-eO-Ert"/>
                     <constraint firstItem="cbS-uZ-8Gg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Bam-NT-gep"/>
                     <constraint firstAttribute="bottom" secondItem="3kQ-Zx-fn0" secondAttribute="bottom" constant="58" id="Jg4-bE-uOJ"/>
+                    <constraint firstItem="epP-05-Myb" firstAttribute="centerX" secondItem="wvf-MS-Sjn" secondAttribute="centerX" id="K5S-LS-i0N"/>
+                    <constraint firstItem="epP-05-Myb" firstAttribute="height" secondItem="wvf-MS-Sjn" secondAttribute="height" id="T1g-xG-NCM"/>
                     <constraint firstItem="wvf-MS-Sjn" firstAttribute="centerY" secondItem="3kQ-Zx-fn0" secondAttribute="centerY" id="UwP-Gh-PWT"/>
                     <constraint firstItem="3kQ-Zx-fn0" firstAttribute="top" secondItem="cbS-uZ-8Gg" secondAttribute="bottom" id="Vlk-h5-X1L"/>
                     <constraint firstAttribute="trailing" secondItem="wvf-MS-Sjn" secondAttribute="trailing" constant="6" id="W7F-Bk-0zc"/>
