@@ -35,6 +35,4 @@ class HomeProviderMock: HomeProviderProtocol {
         }
         return model
     }
-    
-    
 }

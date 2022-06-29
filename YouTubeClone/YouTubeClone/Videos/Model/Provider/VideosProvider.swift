@@ -13,7 +13,7 @@ protocol VideosProviderProtocol: AnyObject {
 
 class VideosProvider: VideosProviderProtocol {
     func getVideos(channelId: String) async throws -> VideoModel {
-        var queryParams: [String: String] = ["part": "snippet", "type": "videos", "maxResults": "50"]
+        let queryParams: [String: String] = ["part": "snippet", "type": "videos", "maxResults": "50"]
         let requestModel = RequestModel(endpoint: .search, queryItems: queryParams)
         do {
             return try await ServiceLayer.callService(requestModel, VideoModel.self)
