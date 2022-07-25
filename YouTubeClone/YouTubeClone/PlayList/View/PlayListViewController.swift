@@ -23,8 +23,7 @@ class PlayListViewController: UIViewController {
     }
     
     func configTableView() {
-        let nibPlaylist = UINib(nibName: "\(PlayListCell.self)", bundle: nil)
-        playListTableView.register(nibPlaylist, forCellReuseIdentifier: "\(PlayListCell.self)")
+        playListTableView.register(cell: PlayListCell.self)
         playListTableView.separatorColor = .clear
         playListTableView.delegate = self
         playListTableView.dataSource = self
@@ -38,9 +37,7 @@ extension PlayListViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let playList = playList[indexPath.row]
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "\(PlayListCell.self)", for: indexPath) as? PlayListCell else {
-            return UITableViewCell()
-        }
+        let cell = tableView.dequeueReusableCell(for: PlayListCell.self, for: indexPath)
         cell.didTapDotsButton = {[weak self] in
             self?.configButtonSheet()
         }

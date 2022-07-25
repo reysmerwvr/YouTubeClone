@@ -28,8 +28,8 @@ class PlayListCell: UITableViewCell {
     
     private func configView() {
         selectionStyle = .none
-        dotsImage.image = UIImage(named: "dots")?.withRenderingMode(.alwaysTemplate)
-        dotsImage.tintColor = UIColor(named: "whiteColor")
+        dotsImage.image = .dotsImage
+        dotsImage.tintColor = .whiteColor
     }
     
     @IBAction func onDotsButtonTapped(_ sender: Any) {
