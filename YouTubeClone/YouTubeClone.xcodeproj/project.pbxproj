@@ -26,6 +26,7 @@
 		93D62968288F0571007E4766 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D62967288F0571007E4766 /* UITableView+Extension.swift */; };
 		93D6296A288F0DB8007E4766 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D62969288F0DB8007E4766 /* UIColor+Extension.swift */; };
 		93D6296C288F0E7D007E4766 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D6296B288F0E7D007E4766 /* UIImage+Extension.swift */; };
+		93D6296E288F112F007E4766 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D6296D288F112F007E4766 /* BaseViewController.swift */; };
 		93EE18A1283F999600841F80 /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE18A0283F999600841F80 /* PlayListModel.swift */; };
 		93EE18A3283F9FC400841F80 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE18A2283F9FC400841F80 /* VideoModel.swift */; };
 		93EE18A62840D24500841F80 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EE18A52840D24500841F80 /* RootPageViewController.swift */; };
@@ -87,6 +88,7 @@
 		93D62967288F0571007E4766 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		93D62969288F0DB8007E4766 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		93D6296B288F0E7D007E4766 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		93D6296D288F112F007E4766 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		93EE18A0283F999600841F80 /* PlayListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListModel.swift; sourceTree = "<group>"; };
 		93EE18A2283F9FC400841F80 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		93EE18A52840D24500841F80 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 				93EE18CC2844FEC900841F80 /* Constants.swift */,
 				93EE18DD284672C200841F80 /* Helpers.swift */,
 				93EE18EC28467BE200841F80 /* MockManager.swift */,
+				93D6296D288F112F007E4766 /* BaseViewController.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -591,6 +594,7 @@
 				93635850283AD51F004A02CE /* AppDelegate.swift in Sources */,
 				93EE18A62840D24500841F80 /* RootPageViewController.swift in Sources */,
 				93EE18DE284672C200841F80 /* Helpers.swift in Sources */,
+				93D6296E288F112F007E4766 /* BaseViewController.swift in Sources */,
 				93EE18F9284807D500841F80 /* PlayListCell.swift in Sources */,
 				93EE18D32845552B00841F80 /* HomeProvider.swift in Sources */,
 				93EE18D52845577000841F80 /* HomePresenter.swift in Sources */,

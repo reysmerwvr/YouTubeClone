@@ -31,6 +31,17 @@ class HomeViewController: UIViewController {
         homeTableView.delegate = self
         homeTableView.dataSource = self
         homeTableView.separatorColor = .clear
+        homeTableView.contentInset = UIEdgeInsets(top: -15, left: 0, bottom: -80, right: 0)
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let pan = scrollView.panGestureRecognizer
+        let velocity = pan.velocity(in: scrollView).y
+        if velocity < -5 {
+            navigationController?.setNavigationBarHidden(true, animated: true)
+        } else if velocity > 5 {
+            navigationController?.setNavigationBarHidden(false, animated: true)
+        }
     }
 }
 
